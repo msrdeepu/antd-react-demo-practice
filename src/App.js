@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+//imports
+import ButtonItem from "./components/ButtonItem";
+import Inputitem from "./components/Inputitem";
+import Selectitem from "./components/Selectitem";
+import Formitem from "./components/Formitem";
+import Daterangepicker from "./components/Daterangepicker";
+import Spincomponent from "./components/Spincomponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ButtonItem />
+      <Inputitem />
+      <Selectitem />
+      <Formitem />
+      <Daterangepicker />
+      <Spincomponent />
     </div>
   );
 }
